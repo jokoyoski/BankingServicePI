@@ -36,7 +36,22 @@ namespace BankingAPI
             services.AddSingleton<CacheDetails>();
             services.AddMemoryCache();
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("SqliteConnection")));
-            services.AddControllers();
+           
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "Banking  API",
+                    Version = "v2",
+                    Description = "Sample service for Bank",
+                });
+
+            });
+
+
+            services.AddControllers(options=>{
+                 
+            });
 
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +70,8 @@ namespace BankingAPI
             {
                 endpoints.MapControllers();
             });
-           
+            app.UseSwagger();
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Banking Service"));
         }
     }
     }
