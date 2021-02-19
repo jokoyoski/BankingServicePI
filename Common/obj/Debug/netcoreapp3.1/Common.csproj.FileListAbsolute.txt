@@ -1,0 +1,9 @@
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\Common\obj\Debug\netcoreapp3.1\Common.pdb

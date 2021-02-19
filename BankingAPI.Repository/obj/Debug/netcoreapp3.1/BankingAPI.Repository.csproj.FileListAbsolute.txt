@@ -1,0 +1,12 @@
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\bin\Debug\netcoreapp3.1\BankingAPI.Repository.deps.json
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\bin\Debug\netcoreapp3.1\BankingAPI.Repository.dll
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\bin\Debug\netcoreapp3.1\BankingAPI.Repository.pdb
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\obj\Debug\netcoreapp3.1\BankingAPI.Repository.csprojAssemblyReference.cache
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\obj\Debug\netcoreapp3.1\BankingAPI.Repository.AssemblyInfoInputs.cache
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\obj\Debug\netcoreapp3.1\BankingAPI.Repository.AssemblyInfo.cs
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\obj\Debug\netcoreapp3.1\BankingAPI.Repository.csproj.CoreCompileInputs.cache
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\obj\Debug\netcoreapp3.1\BankingAPI.Repository.dll
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\obj\Debug\netcoreapp3.1\BankingAPI.Repository.pdb
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\bin\Debug\netcoreapp3.1\BankingAPI.Repository.runtimeconfig.json
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\bin\Debug\netcoreapp3.1\BankingAPI.Repository.runtimeconfig.dev.json
+C:\Users\adeola.oladeinde\source\repos\BankingAPI\BankingAPI.Repository\obj\Debug\netcoreapp3.1\BankingAPI.Repository.genruntimeconfig.cache

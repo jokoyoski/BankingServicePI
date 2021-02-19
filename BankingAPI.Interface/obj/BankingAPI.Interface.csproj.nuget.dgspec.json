@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Interface\\BankingAPI.Interface.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Interface\\BankingAPI.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Interface\\BankingAPI.Interface.csproj",
+        "projectName": "BankingAPI.Interface",
+        "projectPath": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Interface\\BankingAPI.Interface.csproj",
+        "packagesPath": "C:\\Users\\adeola.oladeinde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\adeola.oladeinde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Repository\\BankingAPI.Repository.csproj": {
+                "projectPath": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Repository\\BankingAPI.Repository.csproj"
+              },
+              "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Service\\BankingAPI.Service.csproj": {
+                "projectPath": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Service\\BankingAPI.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Repository\\BankingAPI.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Repository\\BankingAPI.Repository.csproj",
+        "projectName": "BankingAPI.Repository",
+        "projectPath": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Repository\\BankingAPI.Repository.csproj",
+        "packagesPath": "C:\\Users\\adeola.oladeinde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\adeola.oladeinde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Service\\BankingAPI.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Service\\BankingAPI.Service.csproj",
+        "projectName": "BankingAPI.Service",
+        "projectPath": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Service\\BankingAPI.Service.csproj",
+        "packagesPath": "C:\\Users\\adeola.oladeinde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adeola.oladeinde\\source\\repos\\BankingAPI\\BankingAPI.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\adeola.oladeinde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
