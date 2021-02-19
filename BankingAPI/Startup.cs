@@ -1,3 +1,4 @@
+using BankingAPI.Filters;
 using BankingAPI.Interface.contracts;
 using BankingAPI.PaymentGateWay.Implementation;
 using BankingAPI.Repository.Contract;
@@ -36,7 +37,6 @@ namespace BankingAPI
             services.AddSingleton<CacheDetails>();
             services.AddMemoryCache();
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("SqliteConnection")));
-           
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
@@ -49,7 +49,11 @@ namespace BankingAPI
             });
 
 
-            services.AddControllers();
+            services.AddMvc(options =>
+            {
+                options.EnableEndpointRouting = false;
+                options.Filters.Add(new ValidateModelAttribute());
+            }).AddDataAnnotationsLocalization();
 
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,5 +77,3 @@ namespace BankingAPI
         }
     }
     }
-
-

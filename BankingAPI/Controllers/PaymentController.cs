@@ -12,8 +12,7 @@ namespace BankingAPI.Controllers
 {
     
     [Route("api/v1/process")]
-    [ApiController]
-    public class PaymentController : ControllerBase
+       public class PaymentController : BaseController
     {
         private readonly IPaymentService _paymentService;
         private readonly ILogger<PaymentController> _logger;
@@ -27,7 +26,7 @@ namespace BankingAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> ProcessPayment(ProcessPaymentRequest processPaymentRequest)
+        public async Task<IActionResult> ProcessPayment([FromBody]ProcessPaymentRequest processPaymentRequest)
         {
             try
             {
